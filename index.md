@@ -1,6 +1,6 @@
 # Jaeheon Jung's Portfolio
 
-Hello, my name is Jaeheon Jung. I'm a first year Ph.D student in CU Boulder. My major is geography, focusing on spatial demography and exposure to natural hazard. 
+Hello, my name is Jaeheon Jung. I'm a first-year Ph.D student at CU Boulder. My major is geography, focusing on spatial demography and exposure to natural hazards. 
 
 You can find my contact information and public profiles:
 ### Contact & Profiles
@@ -19,4 +19,5 @@ You can find my contact information and public profiles:
 ### Professional Position
 * **Researcher**, Korea Research Institute for Human Settlements (*March 2025 – June 2026*).
   * Urban Research Division, Smart City & Disaster Prevention Research Center
+
 
