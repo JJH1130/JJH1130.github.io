@@ -32,6 +32,7 @@ You can find my contact information and public profiles:
 
 * **Jung, J.H.**, Kim, O.S., Matthews, S.A., and Kim, K.W., Gridded Population Projection of South Korea using Ensemble Learning (2025–2050), *Spatial Demography* (minor revision).
 * **Jung, J.H.**, Kim, O.S., Brunnerová, D., and Václavík, T., Understanding the Adoption of Agri-environment Practices in Europe through Explainable Artificial Intelligence, *Journal of Land Use Science* (minor revision).
+
 ---
 
 ## Earth Data Science Interests & Goals
