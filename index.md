@@ -19,6 +19,8 @@ You can find my contact information and public profiles:
   * Advisor: Prof. Stefan Leyk
   * Research Focus: Population downscaling (dasymetric mapping), aging society, low fertility, climate change, Geographic Information System (GIS), and Machine Learning (ML) based classification and regression.
 * **M.A. in Geography**, Korea University (*March 2023 – February 2025*)
+  * Advisor: Dr. Oh Seok Kim.
+  * Thesis title: Downscaling Population and GRDP Data at a 500m pixel-level via Ensemble Machine Learning
 * **B.A. in Geography Education**, Korea University (*March 2017 – February 2023*)
 
 ### Professional Position
@@ -26,6 +28,10 @@ You can find my contact information and public profiles:
 * **Researcher**, Korea Research Institute for Human Settlements (*March 2025 – June 2026*).
   * Urban Research Division, Smart City & Disaster Prevention Research Center
 
+### Publications
+
+* Jung, J.H., Kim, O.S., Matthews, S.A., and Kim, K.W., Gridded Population Projection of South Korea using Ensemble Learning (2025–2050), Spatial Demography (minor revision).
+* Jung, J.H., Kim, O.S., Brunnerová, D., and Václavík, T., Understanding the Adoption of Agri-environment Practices in Europe through Explainable Artificial Intelligence, Journal of Land Use Science (minor revision).
 ---
 
 ## Earth Data Science Interests & Goals
