@@ -6,7 +6,7 @@ You can find my contact information and public profiles:
 
 ### Contact & Profiles
 * **Email:** [jaeheon.jung@colorado.edu](mailto:jaeheon.jung@colorado.edu)
-* **Github:** [https://github.com/JJH1130](https://github.com/JJH1130)
+* **Github:** < a href="https://github.com/JJH1130" target="_blank"> Github profile </a>
 * **Google Scholar:**
 
 ---
