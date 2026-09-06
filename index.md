@@ -46,3 +46,7 @@ You can find my contact information and public profiles:
 
 * **Population Downscaling:** How can dasymetric mapping and machine learning improve the spatial resolution of population projections?
 * **Spatial Data Analysis:** How can GIS tools and Python be utilized to effectively preprocess and analyze diverse spatial datasets?
+
+---
+
+![Mississippi Delta](https://deltax.jpl.nasa.gov/img/delta-google-earth.jpg)
