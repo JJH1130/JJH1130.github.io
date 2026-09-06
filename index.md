@@ -49,4 +49,6 @@ You can find my contact information and public profiles:
 
 ---
 
-![Mississippi Delta](https://deltax.jpl.nasa.gov/img/delta-google-earth.jpg)
+<img
+  src="img/JaeheonJung.jpg"
+  alt="Jaeheon Jung's image">
