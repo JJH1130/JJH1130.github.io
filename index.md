@@ -51,4 +51,5 @@ You can find my contact information and public profiles:
 
 <img
   src="img/JaeheonJung.jpg"
-  alt="Jaeheon Jung's image">
+  alt="Jaeheon Jung's image"
+  width="25%">
