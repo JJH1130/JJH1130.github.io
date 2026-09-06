@@ -1,5 +1,3 @@
-# Jaeheon Jung's Portfolio
-
 Hello, my name is Jaeheon Jung. I'm a first-year Ph.D student at CU Boulder. My major is geography, focusing on spatial demography and exposure to natural hazards. 
 
 You can find my contact information and public profiles:
@@ -48,8 +46,3 @@ You can find my contact information and public profiles:
 * **Spatial Data Analysis:** How can GIS tools and Python be utilized to effectively preprocess and analyze diverse spatial datasets?
 
 ---
-
-<img
-  src="img/JaeheonJung.jpg"
-  alt="Jaeheon Jung's image"
-  width="25%">
