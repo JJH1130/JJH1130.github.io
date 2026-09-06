@@ -2,7 +2,11 @@
 
 Welcome! This repository hosts my personal academic website and portfolio.
 
-- <a href="https://github.com/JJH1130" target="_blank">GitHub Profile</a>
+- <a
+    href="https://github.com/JJH1130"
+    target="_blank">
+    My website
+  </a>
 - **About Me:** First-year PhD student in Geography, focusing on machine learning and spatial data analysis.
 - **Tools & Tech:** Python, GIS, Remote Sensing
 
