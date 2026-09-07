@@ -47,4 +47,5 @@ You can find my contact information and public profiles:
 
 ---
 
+## Interactive Campus Map
 <embed type="text/html" src="cu_boulder.html" width="600" height="600">
