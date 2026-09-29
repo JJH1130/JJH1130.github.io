@@ -42,7 +42,7 @@ An ordinary least squares (OLS) linear regression was performed to quantify the 
 
 ![Seoul Temperature Trend](img/06_seoul_temperature_trend.jpeg)
 
-*Figure 4. Linear trend of annual average temperature in Seoul, South Korea (1954–2025), showing a warming rate of +0.0343 °C/year ($R^2 = 0.614$, $p < 0.001$).*
+*Figure 4. Linear trend of annual average temperature in Seoul, South Korea (1954–2025).*
 
 ---
 
