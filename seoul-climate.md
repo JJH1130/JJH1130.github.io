@@ -24,6 +24,7 @@ As illustrated below, raw aggregation without accounting for missing records dur
 
 
 ![Annual Missing Climate](img/02_ann_climate_missing.jpeg)
+
 *Figure 2. Unfiltered annual mean temperature showing extreme distortion caused by missing data during the Korean War.*
 
 ---
