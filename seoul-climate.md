@@ -18,7 +18,10 @@ To prevent artificial skewness in annual means, the analytical period was refine
 As illustrated below, raw aggregation without accounting for missing records during wartime creates extreme artificial troughs in annual temperature computations (notably the 1953 anomaly).
 
 ![Daily Temperature](img/01_daily_climate_missing.jpeg)
+
 *Figure 1. Daily temperature series for Seoul showing observational disruptions during the early 1950s.*
+
+
 
 ![Annual Missing Climate](img/02_ann_climate_missing.jpeg)
 *Figure 2. Unfiltered annual mean temperature showing extreme distortion caused by missing data during the Korean War.*
@@ -29,6 +32,7 @@ As illustrated below, raw aggregation without accounting for missing records dur
 Filtering for complete annual cycles yields a robust and continuous representation of interannual temperature variability in post-war Seoul.
 
 ![Clean Annual Series](img/04_ann_climate.jpeg)
+
 *Figure 3. Cleaned annual average temperature series for Seoul (1954–2025).*
 
 ---
@@ -37,6 +41,7 @@ Filtering for complete annual cycles yields a robust and continuous representati
 An ordinary least squares (OLS) linear regression was performed to quantify the rate of warming over the 72-year continuous period.
 
 ![Seoul Temperature Trend](img/06_seoul_temperature_trend.jpeg)
+
 *Figure 4. Linear trend of annual average temperature in Seoul, South Korea (1954–2025), showing a warming rate of +0.0343 °C/year ($R^2 = 0.614$, $p < 0.001$).*
 
 ---
@@ -51,6 +56,7 @@ An ordinary least squares (OLS) linear regression was performed to quantify the 
 ### Discussion: Regional vs. Global Warming Comparison
 
 ![Boulder Temperature Trend](img/boulder_temperature_trend.png)
+
 *Figure 5. Linear trend of annual average temperature in Boulder, Colorado (Baseline).*
 
 Comparing Seoul's warming rate to regional baselines such as Boulder, Colorado (which exhibited an increase of approximately $0.15 ^\circ\text{C}/\text{decade}$ as shown in Figure 5), Seoul has warmed at **more than twice the rate**. 
