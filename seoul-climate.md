@@ -49,9 +49,9 @@ An ordinary least squares (OLS) linear regression was performed to quantify the 
 ## 3. Findings and Interpretation
 
 ### Quantitative Evidence
-- **Warming Rate (Slope):** $+0.0343 ^\circ\text{C}/\text{year}$ ($+0.343 ^\circ\text{C}/\text{decade}$)
-- **Statistical Significance:** $R^2 = 0.614$, $p = 3.94 \times 10^{-16}$ ($p < 0.001$)
-- **Total Temperature Rise:** Over the 72-year study period, Seoul's mean annual temperature rose by approximately **$2.47 ^\circ\text{C}$**.
+- **Warming Rate (Slope):** +0.0343 °C/year (+0.0343 °C/decade)
+- **Statistical Significance:** R² = 0.614, p = 3.94 × 10⁻¹⁶ (p < 0.001)
+- **Total Temperature Rise:** Over the 72-year study period, Seoul's mean annual temperature rose by approximately **2.47 °C**.
 
 ### Discussion: Regional vs. Global Warming Comparison
 
@@ -59,7 +59,7 @@ An ordinary least squares (OLS) linear regression was performed to quantify the 
 
 *Figure 5. Linear trend of annual average temperature in Boulder, Colorado (Baseline).*
 
-Comparing Seoul's warming rate to regional baselines such as Boulder, Colorado (which exhibited an increase of approximately $0.15 ^\circ\text{C}/\text{decade}$ as shown in Figure 5), Seoul has warmed at **more than twice the rate**. 
+Comparing Seoul's warming rate to regional baselines such as Boulder, Colorado (which exhibited an increase of approximately 0.15 °C/decade as shown in Figure 5), Seoul has warmed at **more than twice the rate**. 
 
 This accelerated warming is primarily attributed to two primary drivers:
 1. **Macro-scale Climate Warming:** Regional warming trends across the Korean Peninsula driven by greenhouse gas forcing.
