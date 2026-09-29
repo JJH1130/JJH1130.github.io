@@ -1,5 +1,4 @@
 # Long-Term Climate Warming and Urban Heat Island Effect in Seoul, South Korea (1954–2025)
-
 ## 1. Study Area and Geographic Context
 This analysis examines long-term surface air temperature changes in Seoul, South Korea (Station ID: 108, Songwol-dong station). Located in East Asia, Seoul has undergone rapid industrialization and urban expansion over the past several decades. Investigating Seoul's temperature trajectory allows us to observe both global climate change forcing and the local Urban Heat Island (UHI) effect.
 
