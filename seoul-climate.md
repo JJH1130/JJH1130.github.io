@@ -12,7 +12,7 @@ To prevent artificial skewness in annual means, the analytical period was refine
 
 ---
 
-## 2. Visual Evidence: Data Cleaning & Trend Analysis
+## 2. Plots: Data Cleaning & Trend Analysis
 
 ### Initial Exploration and Missing Data Anomalies
 As illustrated below, raw aggregation without accounting for missing records during wartime creates extreme artificial troughs in annual temperature computations (notably the 1953 anomaly).
@@ -51,7 +51,6 @@ An ordinary least squares (OLS) linear regression was performed to quantify the 
 ### Discussion: Regional vs. Global Warming Comparison
 
 ![Boulder Temperature Trend](img/boulder_temperature_trend.png)
-
 *Figure 5. Linear trend of annual average temperature in Boulder, Colorado (Baseline).*
 
 Comparing Seoul's warming rate to regional baselines such as Boulder, Colorado (which exhibited an increase of approximately $0.15 ^\circ\text{C}/\text{decade}$ as shown in Figure 5), Seoul has warmed at **more than twice the rate**. 
