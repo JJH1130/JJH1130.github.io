@@ -22,9 +22,9 @@ As illustrated below, raw aggregation without accounting for missing records dur
 
 
 
-![Annual Missing Climate](img/02_ann_climate_missing.jpeg)
+<iframe src="img/03_hvplot_ann_missing_climate_2.html" width="100%" height="380px" frameborder="0" style="border:none; border-radius: 8px;"></iframe>
 
-*Figure 2. Unfiltered annual mean temperature showing extreme distortion caused by missing data during the Korean War.*
+*Figure 2. Interactive unfiltered annual mean temperature showing extreme distortion caused by missing data during the Korean War.*
 
 ---
 
