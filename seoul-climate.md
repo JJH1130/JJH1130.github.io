@@ -3,7 +3,11 @@
 This analysis examines long-term surface air temperature changes in Seoul, South Korea (Station ID: 108, Songwol-dong station). Located in East Asia, Seoul has undergone rapid industrialization and urban expansion over the past several decades. Investigating Seoul's temperature trajectory allows us to observe both global climate change forcing and the local Urban Heat Island (UHI) effect.
 
 ### Data Source and Preprocessing Justification
-The dataset was obtained from the Korea Meteorological Administration (KMA) Automated Synoptic Observing System (ASOS). While observations began in late 1907, the historical time series contains critical observational gaps:
+The dataset was obtained from the [Korea Meteorological Administration (KMA)](https://www.kma.go.kr/eng/)
+Automated Synoptic Observing System (ASOS), downloaded via the KMA Open MET Data Portal
+([Temperature Analysis page](https://data.kma.go.kr/stcs/grnd/grndTaList.do), in Korean; accessed October 2026).
+
+While observations began in late 1907, the historical time series contains critical observational gaps:
 - **1907 & 2026:** Incomplete calendar years (1907 records began in October; 2026 is currently ongoing).
 - **1950–1953 (Korean War Era):** Severe observational disruption resulted in extensive missing data (e.g., zero valid observations across 1951–1952).
 
