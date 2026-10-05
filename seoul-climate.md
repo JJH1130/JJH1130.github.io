@@ -48,7 +48,7 @@ An ordinary least squares (OLS) linear regression was performed to quantify the 
 ## 3. Findings and Interpretation
 
 ### Quantitative Evidence
-- **Warming Rate (Slope):** +0.0343 °C/year (+0.0343 °C/decade)
+- **Warming Rate (Slope):** +0.0343 °C/year (+0.343 °C/decade)
 - **Statistical Significance:** R² = 0.614, p = 3.94 × 10⁻¹⁶ (p < 0.001)
 - **Total Temperature Rise:** Over the 72-year study period, Seoul's mean annual temperature rose by approximately **2.47 °C**.
 
