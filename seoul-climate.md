@@ -65,7 +65,15 @@ An ordinary least squares (OLS) linear regression was performed to quantify the 
 Comparing Seoul's warming rate to regional baselines such as Boulder, Colorado (which exhibited an increase of approximately 0.15 °C/decade as shown in Figure 5), Seoul has warmed at **more than twice the rate**. 
 
 This accelerated warming is primarily attributed to two primary drivers:
-1. **Macro-scale Climate Warming:** Regional warming trends across the Korean Peninsula driven by greenhouse gas forcing.
-2. **Intense Urban Heat Island (UHI) Effect:** Post-war reconstruction led to massive high-density concrete infrastructure, reduction of vegetated surfaces, and concentrated anthropogenic heat emissions across the Seoul Metropolitan Area.
+1. **Macro-scale Climate Warming:** The Korean Peninsula has warmed faster than the global land average over the past century (Park et al., 2017), and long-term increases in temperature extremes across Korea and East Asia have been linked to greenhouse gas forcing (Min et al., 2015).
+2. **Intense Urban Heat Island (UHI) Effect:** Post-war reconstruction and rapid economic growth intensified the UHI in the Seoul Metropolitan Area over 1962–2017 (Hong et al., 2019). High-density redevelopment has been shown to raise local minimum temperatures and anthropogenic heat emissions (Hong & Hong, 2016), while the expansion of impervious surfaces and loss of vegetation are associated with higher surface temperatures (Priyankara et al., 2019).
 
 This statistical evidence confirms that high-density metropolitan areas experience compounded climate exposure due to local land surface transformations.
+
+## References
+
+- Hong, J.-W., & Hong, J. (2016). Changes in the Seoul Metropolitan Area urban heat environment with residential redevelopment. *Journal of Applied Meteorology and Climatology*, 55(5), 1091–1106. [https://doi.org/10.1175/JAMC-D-15-0321.1](https://doi.org/10.1175/JAMC-D-15-0321.1)
+- Hong, J.-W., Hong, J., Kwon, E. E., & Yoon, D. K. (2019). Temporal dynamics of urban heat island correlated with the socio-economic development over the past half-century in Seoul, Korea. *Environmental Pollution*, 254, 112934. [https://doi.org/10.1016/j.envpol.2019.112934](https://doi.org/10.1016/j.envpol.2019.112934)
+- Min, S.-K., Son, S.-W., Seo, K.-H., Kug, J.-S., & An, S.-I. (2015). Changes in weather and climate extremes over Korea and possible causes: A review. *Asia-Pacific Journal of Atmospheric Sciences*, 51(2), 103–121. [https://doi.org/10.1007/s13143-015-0066-5](https://doi.org/10.1007/s13143-015-0066-5)
+- Park, B.-J., Kim, Y.-H., Min, S.-K., Kim, M.-K., & Choi, Y. (2017). Long-term warming trends in Korea and contribution of urbanization: An updated assessment. *Journal of Geophysical Research: Atmospheres*, 122(20), 10637–10654. [https://doi.org/10.1002/2017JD027167](https://doi.org/10.1002/2017JD027167)
+- Priyankara, P., Ranagalage, M., Dissanayake, D. M. S. L. B., Morimoto, T., & Murayama, Y. (2019). Spatial process of surface urban heat island in rapidly growing Seoul metropolitan area for sustainable urban planning using Landsat data (1996–2017). *Climate*, 7(9), 110. [https://doi.org/10.3390/cli7090110](https://doi.org/10.3390/cli7090110)
