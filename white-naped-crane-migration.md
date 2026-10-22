@@ -12,7 +12,7 @@ The species is divided into two groups. The western population migrates through 
 **Research question:** When and where do White-naped Cranes move during the year, based on 2024 GBIF observations?
 
 ### Data and Preprocessing
-- **Species observations:** I downloaded all 2024 White-naped Crane records with coordinates from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) using the `pygbif` package (GBIF.org, 2026). GBIF lists *Antigone vipio* as a synonym of *Grus vipio*, so I used the accepted taxon key to include records under both names. The download includes **2,175 records**.
+- **Species observations:** I downloaded all 2024 White-naped Crane records with coordinates from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) using the **pygbif** package (GBIF.org, 2026). GBIF lists *Antigone vipio* as a synonym of *Grus vipio*, so I used the accepted taxon key to include records under both names. The download includes **2,175 records**.
 - **Ecoregions:** I grouped the observations by [RESOLVE Ecoregions 2017](https://storage.googleapis.com/teow2016/Ecoregions2017.zip), a global ecoregion map that has been widely used to depict species distributions (Dinerstein et al., 2017). Within one ecoregion, habitat conditions for a species should be fairly similar in the same season.
 
 To prepare the data, I made three choices:
