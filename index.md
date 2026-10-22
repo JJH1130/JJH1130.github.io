@@ -49,3 +49,10 @@ You can find my contact information and public profiles:
 
 ## Interactive Campus Map
 <embed type="text/html" src="cu_boulder.html" width="600" height="600">
+
+---
+
+## Portfolio Posts
+
+* [Long-Term Climate Warming and Urban Heat Island Effect in Seoul (1954–2025)](seoul-climate)
+* [Seasonal Migration of the White-naped Crane in East Asia (2024)](white-naped-crane-migration)
