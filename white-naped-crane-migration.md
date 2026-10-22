@@ -26,7 +26,7 @@ After these steps, 58 combinations of ecoregion and month remained, and every mo
 
 ## 2. Interactive Migration Map
 
-<iframe src="img/white-naped-crane-migration.html" width="100%" height="750px" frameborder="0"></iframe>
+<iframe src="img/white-naped-crane-migration.html" width="100%" height="560px" frameborder="0"></iframe>
 
 *Figure 2. Normalized White-naped Crane observations by ecoregion and month (2024). Use the slider to change the month. The color scale changes each month.*
 
