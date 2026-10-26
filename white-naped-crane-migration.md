@@ -1,7 +1,7 @@
 # Seasonal Migration of the White-naped Crane in East Asia (2024)
 
 ## 1. Species and Study Area
-The White-naped Crane (*Antigone vipio*) is a large crane that breeds in northeastern Mongolia, northeastern China, and southeastern Russia, and spends the winter in China, Korea, and Japan. It is listed as **Vulnerable** by the International Union for Conservation of Nature (IUCN), and its total population is more than 11,000 birds (International Crane Foundation, n.d.).
+The White-naped Crane (*Antigone vipio*) is a large crane that breeds in northeastern Mongolia, northeastern China, and southeastern Russia, and spends the winter in China, Korea, and Japan. It is listed as Vulnerable by the International Union for Conservation of Nature (IUCN), and its total population is more than 11,000 birds (International Crane Foundation, n.d.).
 
 The species is divided into two groups. The western population migrates through China and winters in the middle Yangtze River valley. The eastern population, about 2,000 birds, migrates through the Korean Peninsula. Several hundred of them winter in the Demilitarized Zone (DMZ), and the rest continue to Kyushu, Japan (International Crane Foundation, n.d.). I saw White-naped Cranes wintering in the DMZ area in Korea in 2024, so I wanted to see whether this migration can be found in public observation data.
 
@@ -12,7 +12,7 @@ The species is divided into two groups. The western population migrates through 
 **Research question:** When and where do White-naped Cranes move during the year, based on 2024 GBIF observations?
 
 ### Data and Preprocessing
-- **Species observations:** I downloaded all 2024 White-naped Crane records with coordinates from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) using the **pygbif** package (GBIF.org, 2026). GBIF lists *Antigone vipio* as a synonym of *Grus vipio*, so I used the accepted taxon key to include records under both names. The download includes **2,175 records**.
+- **Species observations:** I downloaded all 2024 White-naped Crane records with coordinates from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) using the pygbif package (GBIF.org, 2026). GBIF lists *Antigone vipio* as a synonym of *Grus vipio*, so I used the accepted taxon key to include records under both names. The download includes 2,175 records.
 - **Ecoregions:** I grouped the observations by [RESOLVE Ecoregions 2017](https://storage.googleapis.com/teow2016/Ecoregions2017.zip), a global ecoregion map that has been widely used to depict species distributions (Dinerstein et al., 2017). Within one ecoregion, habitat conditions for a species should be fairly similar in the same season.
 
 To prepare the data, I made three choices:
@@ -44,9 +44,9 @@ The map shows a clear seasonal movement between breeding grounds in the north an
 ### Comparison with Previous Research
 The map shows two separate routes, which aligns with the two populations described in the previous research.
 
-1. **Eastern route through Korea:** The Korean Peninsula still has observations in March and becomes bright again in October and November, while the Amur basin is bright in April. This matches satellite tracking of 15 cranes from Japanese wintering grounds, which showed that the DMZ, especially Panmunjom and Cheorwon, is the most important place for the cranes to rest during migration. The cranes spent up to 87.1% of their total migration time at these resting sites (Higuchi et al., 1996).
-2. **Western route through China:** The North China Plain and the lower Yellow River are bright in March and November, and the Yangtze River is the brightest area in December. Jia et al. (2021) reported that the western population winters in the Yangtze River basin, mainly at Poyang Lake. Using satellite tracking, they found that this population changed its migration route, and they suggested that this was likely caused by wetland loss. For example, wetlands in the places where the cranes rest in Bohai Bay decreased by 42% between 1990 and 2010.
-3. **Breeding grounds in Mongolia:** The bright areas in eastern Mongolia from May to September match the breeding area studied by Gilbert et al. (2016). They reported that the number of crane pairs along the Ulz River dropped from 42 in 2001 to 17 in 2011, during a drought that lasted at least ten years.
+- **Eastern route through Korea:** The Korean Peninsula still has observations in March and becomes bright again in October and November, while the Amur basin is bright in April. This matches satellite tracking of 15 cranes from Japanese wintering grounds, which showed that the DMZ, especially Panmunjom and Cheorwon, is the most important place for the cranes to rest during migration. The cranes spent up to 87.1% of their total migration time at these resting sites (Higuchi et al., 1996).-
+- **Western route through China:** The North China Plain and the lower Yellow River are bright in March and November, and the Yangtze River is the brightest area in December. Jia et al. (2021) reported that the western population winters in the Yangtze River basin, mainly at Poyang Lake. Using satellite tracking, they found that this population changed its migration route, and they suggested that this was likely caused by wetland loss. For example, wetlands in the places where the cranes rest in Bohai Bay decreased by 42% between 1990 and 2010.
+- **Breeding grounds in Mongolia:** The bright areas in eastern Mongolia from May to September match the breeding area studied by Gilbert et al. (2016). They reported that the number of crane pairs along the Ulz River dropped from 42 in 2001 to 17 in 2011, during a drought that lasted at least ten years.
 
 These results show that both the wintering sites (such as the DMZ) and the stopover and breeding wetlands are important for this species. Wetland loss in China and drought in Mongolia are threats along the migration route (Gilbert et al., 2016; Jia et al., 2021).
 
