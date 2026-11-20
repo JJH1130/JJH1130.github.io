@@ -56,3 +56,4 @@ You can find my contact information and public profiles:
 
 * [Long-Term Climate Warming and Urban Heat Island Effect in Seoul (1954–2025)](seoul-climate)
 * [Seasonal Migration of the White-naped Crane in East Asia (2024)](white-naped-crane-migration)
+* [How Did Vegetation Change After the 2022 Uljin Wildfire?](uljin-ndvi)

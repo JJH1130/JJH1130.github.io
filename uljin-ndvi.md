@@ -13,13 +13,13 @@ In the Gila River assignment, NDVI increased after water came back. In Uljin, I 
 
 ## 2. Data and Methods
 - **Study area:** I drew a rectangle around the fire area on [geojson.io](https://geojson.io) using satellite images (Figure 1).
-- **NDVI data:** I used NDVI from the Moderate Resolution Imaging Spectroradiometer (MODIS), a sensor on NASA's Terra satellite. The product is MOD13Q1 (version 061), which has 250 m pixels and combines 16 days of images into one. I downloaded the data for July from 2019 to 2025 with NASA's Application for Extracting and Exploring Analysis Ready Samples (AppEEARS), using its API, a tool to request data with code. Each year has three 16-day images that cover July. I used the same month, July, every year so that the years can be compared fairly.
+- **NDVI data:** I used NDVI from the Moderate Resolution Imaging Spectroradiometer (MODIS), a sensor on NASA's Terra satellite. The product is MOD13Q1 (version 061), which has 250m pixels and combines 16 days of images into one. I downloaded the data for July from 2019 to 2025 with NASA's Application for Extracting and Exploring Analysis Ready Samples (AppEEARS), using its API, a tool to request data with code. Each year has three 16-day images that cover July. I used the same month, July, every year so that the years can be compared fairly.
 - **Burned area:** For each pixel, I averaged the nine July images from 2019–2021 (before the fire) and the nine July images from 2022–2024 (after the fire). Then I subtracted the before map from the after map to get the change in NDVI, and drew a boundary around the area where NDVI dropped the most. Because I chose this boundary from the NDVI drop, the drop itself is expected. So in the results, I focus on when the drop happened and how NDVI changed after it.
 - **Comparison:** For each year, I averaged the three July images and all the pixels inside the burned area to get one mean NDVI value. I did the same for the rest of the rectangle (the unburned area), and then calculated the difference between the two.
 
 The full code is available in [this notebook](https://github.com/JJH1130/jjh1130.github.io/blob/main/notebooks/uljin-ndvi.ipynb).
 
-<iframe src="img/uljin-site-map.html" width="100%" height="450px" frameborder="0"></iframe>
+<iframe src="img/uljin-site-map.html" width="100%" height="450px" frameborder="0" scrolling="no"></iframe>
 
 *Figure 1. The study area (white rectangle) around the 2022 Uljin wildfire. Basemap: Esri World Imagery.*
 
@@ -27,7 +27,7 @@ The full code is available in [this notebook](https://github.com/JJH1130/jjh1130
 
 ### NDVI dropped sharply in the center of the study area
 
-<iframe src="img/uljin-ndvi-change-map.html" width="100%" height="450px" frameborder="0"></iframe>
+<iframe src="img/uljin-ndvi-change-map.html" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
 
 *Figure 2. Change in mean July NDVI (2022–2024 minus 2019–2021). Pink means NDVI went down, and green means NDVI went up. The black line shows the burned area, which I drew based on the NDVI drop.*
 
@@ -35,13 +35,13 @@ NDVI dropped by more than 0.2 in the center of the study area, inside the black 
 
 ### The burned forest is recovering, but slowly
 
-<iframe src="img/uljin-ndvi-burned-unburned.html" width="100%" height="350px" frameborder="0"></iframe>
+<iframe src="img/uljin-ndvi-burned-unburned.html" width="100%" height="320px" frameborder="0" scrolling="no"></iframe>
 
 *Figure 3. Mean July NDVI in the burned area and the unburned area, 2019–2025.*
 
 Before the fire, the burned area had slightly higher NDVI than the unburned area. Since I chose the burned area from the NDVI drop, it is expected that NDVI there is lower after the fire. The more important points are the timing and the recovery. NDVI in the burned area stayed high until 2021 and then fell sharply in 2022, from about 0.82 to 0.64, the year of the fire. NDVI in the unburned area stayed almost the same (about 0.80 to 0.79). After that, NDVI in the burned area went up to about 0.71 in 2023 and 0.75 in 2025. In 2020, NDVI went down in both areas, so that drop was not caused by the fire.
 
-<iframe src="img/uljin-ndvi-difference.html" width="100%" height="400px" frameborder="0"></iframe>
+<iframe src="img/uljin-ndvi-difference.html" width="100%" height="320px" frameborder="0" scrolling="no"></iframe>
 
 *Figure 4. Difference in mean July NDVI between the burned and unburned areas (burned minus unburned).*
 
