@@ -14,7 +14,7 @@ In the Gila River assignment, NDVI increased after water came back. In Uljin, I 
 ## 2. Data and Methods
 - **Study area:** I drew a rectangle around the fire area on [geojson.io](https://geojson.io) using satellite images (Figure 1).
 - **NDVI data:** I used NDVI from the Moderate Resolution Imaging Spectroradiometer (MODIS), a sensor on NASA's Terra satellite. The product is MOD13Q1 (version 061), which has 250 m pixels and combines 16 days of images into one. I downloaded the data for July from 2019 to 2025 with NASA's Application for Extracting and Exploring Analysis Ready Samples (AppEEARS), using its API, a tool to request data with code. Each year has three 16-day images that cover July. I used the same month, July, every year so that the years can be compared fairly.
-- **Burned area:** For each pixel, I averaged the nine July images from 2019–2021 (before the fire) and the nine July images from 2022–2024 (after the fire). Then I subtracted the before map from the after map to get the change in NDVI, and drew a boundary around the area where NDVI dropped the most.
+- **Burned area:** For each pixel, I averaged the nine July images from 2019–2021 (before the fire) and the nine July images from 2022–2024 (after the fire). Then I subtracted the before map from the after map to get the change in NDVI, and drew a boundary around the area where NDVI dropped the most. Because I chose this boundary from the NDVI drop, the drop itself is expected. So in the results, I focus on when the drop happened and how NDVI changed after it.
 - **Comparison:** For each year, I averaged the three July images and all the pixels inside the burned area to get one mean NDVI value. I did the same for the rest of the rectangle (the unburned area), and then calculated the difference between the two.
 
 The full code is available in [this notebook](https://github.com/JJH1130/jjh1130.github.io/blob/main/notebooks/uljin-ndvi.ipynb).
@@ -39,26 +39,25 @@ NDVI dropped by more than 0.2 in the center of the study area, inside the black 
 
 *Figure 3. Mean July NDVI in the burned area and the unburned area, 2019–2025.*
 
-Before the fire, the burned area had slightly higher NDVI than the unburned area. In 2022, NDVI in the burned area fell from about 0.82 to 0.64, while NDVI in the unburned area stayed almost the same (about 0.80 to 0.79). After that, NDVI in the burned area went up to about 0.71 in 2023 and 0.75 in 2025. In 2020, NDVI went down in both areas, so that drop was not caused by the fire.
+Before the fire, the burned area had slightly higher NDVI than the unburned area. Since I chose the burned area from the NDVI drop, it is expected that NDVI there is lower after the fire. The more important points are the timing and the recovery. NDVI in the burned area stayed high until 2021 and then fell sharply in 2022, from about 0.82 to 0.64, the year of the fire. NDVI in the unburned area stayed almost the same (about 0.80 to 0.79). After that, NDVI in the burned area went up to about 0.71 in 2023 and 0.75 in 2025. In 2020, NDVI went down in both areas, so that drop was not caused by the fire.
 
 <iframe src="img/uljin-ndvi-difference.html" width="100%" height="400px" frameborder="0"></iframe>
 
 *Figure 4. Difference in mean July NDVI between the burned and unburned areas (burned minus unburned).*
 
-The difference was about +0.03 in 2021, but it fell to −0.144 in 2022. By 2025, it was about −0.10. This means the gap dropped by about 0.17 after the fire, and only about a quarter of it has come back in three years.
+The difference was about +0.03 in 2021, but it fell to −0.144 in 2022. By 2025, it was about −0.10. A positive value means the burned area was greener than the unburned area, and a negative value means it was less green. So before the fire, the burned forest was a little greener than the forest around it, but after the fire, its NDVI was about 0.14 lower. This means the gap dropped by about 0.17 after the fire, and only about a quarter of it has come back in three years.
 
 ## 4. Interpretation
-The NDVI drop in 2022 shows the clear effect of the wildfire. Since NDVI in the unburned area did not drop in 2022, the change was caused by the fire, not by weather. NDVI in the burned area started to go up only one year after the fire, which matches Shin et al. (2024).
+The NDVI drop in 2022 shows the clear effect of the wildfire. Since NDVI in the unburned area did not drop in 2022, the change was mainly caused by the fire. NDVI in the burned area started to go up only one year after the fire, which matches Shin et al. (2024).
 
 However, the recovery is slow. After three years, only about a quarter of the gap has closed. The recovery was fastest in 2023 and then slowed down. This matches the study of the 2000 East Coast wildfire, where NDVI took 9 to 17 years to fully recover (Ryu et al., 2018). If the Uljin forest recovers at a similar speed, it may take about ten more years.
 
 This result is the opposite of the Gila River case. In the Gila River Indian Community, NDVI went up because water came back to the farms. In Uljin, NDVI went down because the forest burned, and it is coming back slowly.
 
 ## 5. Limitations
-- **Pixel size:** MODIS pixels are 250 m, so one pixel can include both burned and unburned land.
-- **Burned area boundary:** I drew the boundary by hand from the NDVI map. Some lightly burned forest is outside the boundary and is counted as unburned, so the real difference may be a little larger. The weaker damage in Samcheok is also not included.
+- **Pixel size:** MODIS pixels are 250m, so one pixel can include both burned and unburned land.
+- **Choosing the burned area from NDVI:** I drew the burned area where NDVI dropped the most, so the size of the drop may look larger than it really is. The boundary is in the right place, because it includes Buk-myeon, where the fire started (Baek et al., 2022). However, it is still a hand-drawn boundary. An official burned area map would be more accurate, but I could not find one from the Korean government that I could download, so I drew the boundary myself.
 - **NDVI is not the whole forest:** NDVI shows how green the land is, not how big the trees are. Grasses and shrubs can make NDVI go up before trees grow back. Different parts of a forest recover at different speeds, so it is better to use more than one index (Ryu et al., 2018).
-- **Weather:** NDVI changes from year to year because of weather, as seen in 2020. Comparing with the unburned area helps, but it does not remove this effect completely.
 
 ## References
 - Asia Business Daily. (2022, March 13). *Longest-ever Uljin-Samcheok wildfire containment... "20,923 ha reduced to ashes"*. https://www.asiae.co.kr/en/article/2022031309334473240
