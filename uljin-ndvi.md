@@ -14,8 +14,8 @@ In the Gila River assignment, NDVI increased after water came back. In Uljin, I 
 ## 2. Data and Methods
 - **Study area:** I drew a rectangle around the fire area on [geojson.io](https://geojson.io) using satellite images (Figure 1).
 - **NDVI data:** I used NDVI from the Moderate Resolution Imaging Spectroradiometer (MODIS), a sensor on NASA's Terra satellite. The product is MOD13Q1 (version 061), which has 250 m pixels and combines 16 days of images into one. I downloaded the data for July from 2019 to 2025 with NASA's Application for Extracting and Exploring Analysis Ready Samples (AppEEARS), using its API, a tool to request data with code. Each year has three 16-day images that cover July. I used the same month, July, every year so that the years can be compared fairly.
-- **Burned area:** I mapped the change in mean July NDVI between 2019–2021 (before the fire) and 2022–2024 (after the fire). Then I drew a boundary around the area where NDVI dropped the most.
-- **Comparison:** For each year, I calculated the mean July NDVI inside the burned area and in the rest of the rectangle (the unburned area), and the difference between them.
+- **Burned area:** For each pixel, I averaged the nine July images from 2019–2021 (before the fire) and the nine July images from 2022–2024 (after the fire). Then I subtracted the before map from the after map to get the change in NDVI, and drew a boundary around the area where NDVI dropped the most.
+- **Comparison:** For each year, I averaged the three July images and all the pixels inside the burned area to get one mean NDVI value. I did the same for the rest of the rectangle (the unburned area), and then calculated the difference between the two.
 
 The full code is available in [this notebook](https://github.com/JJH1130/jjh1130.github.io/blob/main/notebooks/uljin-ndvi.ipynb).
 
@@ -31,11 +31,11 @@ The full code is available in [this notebook](https://github.com/JJH1130/jjh1130
 
 *Figure 2. Change in mean July NDVI (2022–2024 minus 2019–2021). Pink means NDVI went down, and green means NDVI went up. The black line shows the burned area, which I drew based on the NDVI drop.*
 
-NDVI dropped by more than 0.2 in the center of the study area, between about 37.02°N and 37.15°N. This is the area that burned in the fire. In the western part of the study area, NDVI went up a little, by about 0.1. This forest did not burn. The dark green and pink dots along the coast are pixels that mix land and sea, so they are not reliable.
+NDVI dropped by more than 0.2 in the center of the study area, inside the black line. This is the area that burned in the fire. In the western part of the study area, NDVI went up a little, by about 0.1. This forest did not burn. The dark green and pink dots along the coast are pixels that mix land and sea, so they are not reliable.
 
 ### The burned forest is recovering, but slowly
 
-<iframe src="img/uljin-ndvi-burned-unburned.html" width="100%" height="400px" frameborder="0"></iframe>
+<iframe src="img/uljin-ndvi-burned-unburned.html" width="100%" height="350px" frameborder="0"></iframe>
 
 *Figure 3. Mean July NDVI in the burned area and the unburned area, 2019–2025.*
 
