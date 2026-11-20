@@ -3,7 +3,7 @@
 ## 1. Background and Study Area
 Uljin is a county on the east coast of South Korea, facing the East Sea. On March 4, 2022, a wildfire started in Uljin. It spread north to Samcheok and burned for about 213 hours, which made it the longest wildfire on record in Korea. The Korea Forest Service reported that 20,923 ha of forest burned (Asia Business Daily, 2022). A study using satellite images found a smaller burned area of 11,457 ha, because it used a different definition of burned area (Baek et al., 2022).
 
-Most of the forest in this area was Korean red pine (Shin et al., 2024). Coniferous forests, such as pine, burned more severely than deciduous forests (Baek et al., 2022). Before the fire, NDVI in most mountain areas was above 0.6, but in areas that burned badly, it dropped below 0.2 (Shin et al., 2024).
+Most of the forest in this area was Korean red pine (Shin et al., 2024). Coniferous forests, such as pine, burned more severely than deciduous forests (Baek et al., 2022). To see how plants change after a fire, scientists often use the Normalized Difference Vegetation Index (NDVI). NDVI is calculated from satellite images and goes from -1 to 1. Higher values mean more green and healthy plants. Before the fire, NDVI in most mountain areas was above 0.6, but in areas that burned badly, it dropped below 0.2 (Shin et al., 2024).
 
 Forests can take a long time to recover after a fire. After the 2000 East Coast wildfire in Korea, NDVI took about 9 years to return to normal in areas with low or moderate damage, and about 17 years in areas with high damage (Ryu et al., 2018).
 
@@ -13,11 +13,11 @@ In the Gila River assignment, NDVI increased after water came back. In Uljin, I 
 
 ## 2. Data and Methods
 - **Study area:** I drew a rectangle around the fire area on [geojson.io](https://geojson.io) using satellite images (Figure 1).
-- **NDVI data:** MODIS NDVI (MOD13Q1, version 061, 250 m) for July from 2019 to 2025, downloaded with the AppEEARS API. Each year has three 16-day images that cover July. I used July because plants are greenest in summer.
+- **NDVI data:** I used NDVI from the Moderate Resolution Imaging Spectroradiometer (MODIS), a sensor on NASA's Terra satellite. The product is MOD13Q1 (version 061), which has 250 m pixels and combines 16 days of images into one. I downloaded the data for July from 2019 to 2025 with NASA's Application for Extracting and Exploring Analysis Ready Samples (AppEEARS), using its API, a tool to request data with code. Each year has three 16-day images that cover July. I used the same month, July, every year so that the years can be compared fairly.
 - **Burned area:** I mapped the change in mean July NDVI between 2019–2021 (before the fire) and 2022–2024 (after the fire). Then I drew a boundary around the area where NDVI dropped the most.
 - **Comparison:** For each year, I calculated the mean July NDVI inside the burned area and in the rest of the rectangle (the unburned area), and the difference between them.
 
-The full code is available in [this notebook](https://github.com/JJH1130/jjh1130.github.io/blob/main/notebooks/uljin-wildfire-ndvi.ipynb).
+The full code is available in [this notebook](https://github.com/JJH1130/jjh1130.github.io/blob/main/notebooks/uljin-ndvi.ipynb).
 
 <iframe src="img/uljin-site-map.html" width="100%" height="450px" frameborder="0"></iframe>
 
