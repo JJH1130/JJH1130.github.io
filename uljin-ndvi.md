@@ -39,7 +39,7 @@ NDVI dropped by more than 0.2 in the center of the study area, inside the black 
 
 *Figure 3. Mean July NDVI in the burned area and the unburned area, 2019–2025.*
 
-Before the fire, the burned area had slightly higher NDVI than the unburned area. Since I chose the burned area from the NDVI drop, it is expected that NDVI there is lower after the fire. The more important points are the timing and the recovery. NDVI in the burned area stayed high until 2021 and then fell sharply in 2022, from about 0.82 to 0.64, the year of the fire. NDVI in the unburned area stayed almost the same (about 0.80 to 0.79). After that, NDVI in the burned area went up to about 0.71 in 2023 and 0.75 in 2025. In 2020, NDVI went down in both areas, so that drop was not caused by the fire.
+Before the fire, the burned area had slightly higher NDVI than the unburned area. Since I chose the burned area from the NDVI drop, it is expected that NDVI there is lower after the fire. The more important points are the timing and the recovery. NDVI in the burned area stayed high until 2021 and then fell sharply in 2022, from about 0.83 to 0.64, the year of the fire. NDVI in the unburned area stayed almost the same (about 0.80 to 0.79). After that, NDVI in the burned area went up to about 0.71 in 2023 and 0.75 in 2025. In 2020, NDVI went down in both areas, so that drop was not caused by the fire.
 
 <iframe src="img/uljin-ndvi-difference.html" width="100%" height="320px" frameborder="0" scrolling="no"></iframe>
 
